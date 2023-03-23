@@ -387,10 +387,10 @@ img {
   }
 
 
-  .top-right-decoration img {
+/*   .top-right-decoration img {
     max-height: 100%;
     max-width: 100%;
-  }
+  } */
 
     /* Media query for screens smaller than 768px */
     @media (max-width: 500px) {
