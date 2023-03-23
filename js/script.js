@@ -21,9 +21,16 @@
  *
  */
 $(document).on('click', function(){
-    document.getElementById("my_audio").play();
-    console.log('Shaadi me zaroor aana');
+    var audio = document.getElementById("my_audio");
+    if (audio.paused) {
+        audio.play();
+        console.log('Play song');
+    } else {
+        audio.pause();
+        console.log('Pause song');
+    }
 });
+
 
 // Set the date we're counting down to
 var countDownDate = new Date("Apr 26, 2023 00:00:00").getTime();
@@ -44,8 +51,9 @@ var x = setInterval(function() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
     // Output the result in an element with id="demo"
-    document.getElementById("time").innerHTML = "<div class='container'><div class='days block'>"+ days + "<br>Days</div>" + "<div class='hours block'>" + hours + "<br>Hours</div>" + "<div class='minutes block'>" + minutes + "<br>Minutes</div>" + "<div class='seconds block'>" + seconds + "<br>Seconds</div></div>";
-    
+    // document.getElementById("time").innerHTML = "<div class='container'><div class='days block'>"+ days + "<br>Days</div>" + "<div class='hours block'>" + hours + "<br>Hours</div>" + "<div class='minutes block'>" + minutes + "<br>Minutes</div>" + "<div class='seconds block'>" + seconds + "<br>Seconds</div></div>";
+    document.getElementById("time").innerHTML = "<div class='container'>" + "<img src='https://github.com/Kalaivani-Mohan/nandakumar.github.io/blob/main/counter.png' alt='Image'>" + "<div class='time'>"  + days + "Days :" + hours + "Hours :" + minutes + "Minutes :"  + seconds + "Seconds" + "</div>" + "</div>";
+
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(x);
@@ -66,6 +74,12 @@ var styles = [
     , 'font-weight: bold'
     , 'font-size: 32px'
 ].join(';');
+
+function pauseAudio() {
+    var audio = document.getElementById("my_audio");
+    audio.pause();
+  }
+
 
 var styles1 = [
     'color: #FF6C37'
