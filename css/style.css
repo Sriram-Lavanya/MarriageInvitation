@@ -382,15 +382,14 @@ img {
     /* Media query for screens smaller than 768px */
     @media (max-width: 740px) {
         .top-right-decoration {
-            width: 500%;
-		height:150px;
+            width: 800%;
         }
     }
 
     /* Media query for screens larger than 768px */
     @media (min-width: 740px) {
         .top-right-decoration {
-          width: 800px;
+          width: 100px;
 	height:300px;
         }
 	}
