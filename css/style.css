@@ -393,16 +393,17 @@ img {
   } */
 
     /* Media query for screens smaller than 768px */
-    @media (max-width: 500px) {
+    @media (max-width: 780px) {
         .top-right-decoration {
-            width: 500%; /* Set the width to 100% for smaller screens */
+            width: 100%;
+		height:200px;
         }
     }
 
     /* Media query for screens larger than 768px */
-    @media (min-width: 500px) {
+    @media (min-width: 780px) {
         .top-right-decoration {
-            /* Add any other styles for the image on larger screens here */
+         height: 300px;
         }
 	}
 
