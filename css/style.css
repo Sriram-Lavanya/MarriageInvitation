@@ -366,19 +366,6 @@ img {
 }
 
 .top-right-decoration {
-	position: static;
-	top: 0;
-	right: 0;
-	display: block;
-}
-
-.top-left-decoration {
-	position: static;
-	top: 0;
-	left: 0;
-	display: block;
-}
-.top-right-decoration {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -393,15 +380,15 @@ img {
   } */
 
     /* Media query for screens smaller than 768px */
-    @media (max-width: 780px) {
+    @media (max-width: 500px) {
         .top-right-decoration {
-            width: 100%;
+            width: 300%;
 		height:200px;
         }
     }
 
     /* Media query for screens larger than 768px */
-    @media (min-width: 780px) {
+    @media (min-width: 500px) {
         .top-right-decoration {
          height: 300px;
         }
