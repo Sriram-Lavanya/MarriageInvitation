@@ -378,21 +378,21 @@ img {
   max-width: 100%;
 }
 
-@media (max-width: 740px) {
+@media (max-width: 500px) {
   .top-right-decoration {
-    width: 500%;
+    width: 100vw;
     height: 200px;
   }
 }
 
-@media (min-width: 240px) and (max-width: 1024px) {
+@media (min-width: 500px) and (max-width: 500px) {
   .top-right-decoration {
     width: 100vw; /* Set the width to 100% of viewport width */
     height: 300px;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 500px) {
   .top-right-decoration {
     /* Add any other styles for the image on larger screens here */
     width: 100vw;
