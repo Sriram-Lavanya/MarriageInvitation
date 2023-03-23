@@ -52,7 +52,7 @@ var x = setInterval(function() {
     
     // Output the result in an element with id="demo"
     // document.getElementById("time").innerHTML = "<div class='container'><div class='days block'>"+ days + "<br>Days</div>" + "<div class='hours block'>" + hours + "<br>Hours</div>" + "<div class='minutes block'>" + minutes + "<br>Minutes</div>" + "<div class='seconds block'>" + seconds + "<br>Seconds</div></div>";
-    document.getElementById("time").innerHTML = "<div class='container'>" + "<div class='time'>"  + days + "Days :" + hours + "Hours :" + minutes + "Minutes :"  + seconds + "Seconds" + "</div>" + "</div>";
+ document.getElementById("time").innerHTML = "<div class='totalTime'> <span class='fontDays'>" + days + " days </span> : <span class='fontMonth'>" + hours + " hrs</span> : <span class='fontMinutes'>"  + minutes + " mins</span> : <span class='fontSeconds'>"  + seconds + " secs</span></div>";
 
     // If the count down is over, write some text 
     if (distance < 0) {
