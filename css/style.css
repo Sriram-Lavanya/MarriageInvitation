@@ -378,6 +378,18 @@ img {
 	left: 0;
 	display: block;
 }
+.top-right-decoration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #f0f0f0;
+  }
+
+ .top-right-decoration img {
+    max-height: 100%;
+    max-width: 100%;
+  }
 
 .title h1 {
 	font-family: 'Dancing Script', cursive;
