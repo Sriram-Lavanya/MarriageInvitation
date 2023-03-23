@@ -382,8 +382,8 @@ img {
     /* Media query for screens smaller than 768px */
     @media (max-width: 500px) {
         .top-right-decoration {
-            width: 240px;
-		height:200px;
+            width: 500%;
+		height:150px;
         }
     }
 
