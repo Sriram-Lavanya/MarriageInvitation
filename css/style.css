@@ -403,19 +403,19 @@ img {
 	}
   }
 
- .totalTime {
+  .totalTime {
 	font-family: "Georgia", "serif";
-	font-size: 30px;
+	font-size: 15px;
 	font-weight: bold;
 	color: #ffcc00;
 	text-shadow: 0 0 5px #efe414;
 	background-color: #6830c8; /* set background color here */
-	padding: 20px;
+	padding: 10px;
 	border-radius: 10px;
   }
   .fontDays {
 	font-family: "Verdana", "Geneva", "sans-serif";
-	font-size: 30px;
+	font-size: 12px;
 	font-weight: bold;
 	color: #3add21;
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -424,7 +424,7 @@ img {
   }
   .fontMonth {
 	font-family: "Verdana", "Geneva", "sans-serif";
-	font-size: 30px;
+	font-size: 12px;
 	font-weight: bold;
 	color: #d1ed1c;
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -432,7 +432,7 @@ img {
   }
   .fontMinutes {
 	font-family: "Verdana", "Geneva", "sans-serif";
-	font-size: 30px;
+	font-size: 12px;
 	font-weight: bold;
 	color: #12b0d3;
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -440,12 +440,13 @@ img {
   }
   .fontSeconds {
 	font-family: "Verdana", "Geneva", "sans-serif";
-	font-size: 30px;
+	font-size: 12px;
 	font-weight: bold;
-	color: #f70b3a;
+	color: #f195e3;
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 
   }
+
 
 .title h1 {
 	font-family: 'Dancing Script', cursive;
