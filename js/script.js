@@ -22,13 +22,13 @@
  */
 $(document).on('click', function(){
     var audio = document.getElementById("my_audio");
-    if (audio.paused) {
+//     if (audio.paused) {
         audio.play();
         console.log('Play song');
-    } else {
-        audio.pause();
-        console.log('Pause song');
-    }
+//     } else {
+//         audio.pause();
+//         console.log('Pause song');
+//     }
 });
 
 
