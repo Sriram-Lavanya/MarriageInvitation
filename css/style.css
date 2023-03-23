@@ -382,7 +382,7 @@ img {
     /* Media query for screens smaller than 768px */
     @media (max-width: 500px) {
         .top-right-decoration {
-            width: 500px;
+            width: 240px;
 		height:200px;
         }
     }
@@ -390,7 +390,8 @@ img {
     /* Media query for screens larger than 768px */
     @media (min-width: 500px) {
         .top-right-decoration {
-         height: 300px;
+          width: 800px;
+	height:300px;
         }
 	}
 
