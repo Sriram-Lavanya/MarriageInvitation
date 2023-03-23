@@ -386,10 +386,25 @@ img {
     background-color: #f0f0f0;
   }
 
- .top-right-decoration img {
+
+  .top-right-decoration img {
     max-height: 100%;
     max-width: 100%;
   }
+
+    /* Media query for screens smaller than 768px */
+    @media (max-width: 500px) {
+        .top-right-decoration {
+            width: 500%; /* Set the width to 100% for smaller screens */
+        }
+    }
+
+    /* Media query for screens larger than 768px */
+    @media (min-width: 500px) {
+        .top-right-decoration {
+            /* Add any other styles for the image on larger screens here */
+        }
+	}
 
 .title h1 {
 	font-family: 'Dancing Script', cursive;
