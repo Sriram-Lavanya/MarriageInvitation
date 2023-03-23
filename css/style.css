@@ -555,6 +555,20 @@ body {
 a {
 	text-decoration: none;
 }
+.sample {
+	width: auto;
+	height: auto;
+	background-color: #64a74e;
+	border-radius: 16px;
+	text-align: center;
+	color: #fff;
+	padding: 8px;
+	margin-right: 8px;
+}
+
+.sample a {
+	text-decoration: none;
+	c
 
 .happiness {
 	color: #874562;
