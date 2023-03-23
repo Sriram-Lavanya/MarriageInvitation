@@ -367,8 +367,8 @@ img {
 
 .top-right-decoration {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: stretch;
+    align-items: stretch;
     height: 100px;
     background-color: #f0f0f0;
   }
@@ -382,7 +382,7 @@ img {
     /* Media query for screens smaller than 768px */
     @media (max-width: 740px) {
         .top-right-decoration {
-            width: 800px;
+            width: 800%;
 		height:100px;
         }
     }
