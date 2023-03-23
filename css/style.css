@@ -403,6 +403,50 @@ img {
 	}
   }
 
+ .totalTime {
+	font-family: "Georgia", "serif";
+	font-size: 30px;
+	font-weight: bold;
+	color: #ffcc00;
+	text-shadow: 0 0 5px #efe414;
+	background-color: #6830c8; /* set background color here */
+	padding: 20px;
+	border-radius: 10px;
+  }
+  .fontDays {
+	font-family: "Verdana", "Geneva", "sans-serif";
+	font-size: 30px;
+	font-weight: bold;
+	color: #3add21;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+	
+  }
+  .fontMonth {
+	font-family: "Verdana", "Geneva", "sans-serif";
+	font-size: 30px;
+	font-weight: bold;
+	color: #d1ed1c;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+  }
+  .fontMinutes {
+	font-family: "Verdana", "Geneva", "sans-serif";
+	font-size: 30px;
+	font-weight: bold;
+	color: #12b0d3;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+  }
+  .fontSeconds {
+	font-family: "Verdana", "Geneva", "sans-serif";
+	font-size: 30px;
+	font-weight: bold;
+	color: #f70b3a;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+  }
+
 .title h1 {
 	font-family: 'Dancing Script', cursive;
 	font-weight: bold;
