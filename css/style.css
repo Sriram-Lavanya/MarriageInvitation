@@ -417,7 +417,7 @@ img {
 	font-family: 'Dancing Script', cursive;
 	font-weight: bolder;
 	font-style: normal;
-	font-size: 30px;
+	font-size: 25px;
 	color: #674ea7;
 	margin: 16px;
 	text-align: center;
@@ -483,6 +483,7 @@ body {
 	background-color: #eee;
 	border-radius: 20px;
 	font-size: 16px;
+font-size: 25px;
 }
 
 .venue {
@@ -537,11 +538,14 @@ body {
 .date {
 	color: #874562;
 	font-weight: 900;
+font-size: 25px
 }
 
 .place {
 	color: #874562;
 	font-weight: 900;
+
+font-size: 25px
 }
 
 .footer {
