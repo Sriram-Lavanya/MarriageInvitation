@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url("./img.jfif");
+  background-image: url("./assets/img/timer_Background_img.jfif");
   background-size: cover;
   background-position: center center;
   display: flex;
@@ -41,6 +41,7 @@ h1 {
 }
 
 .element {
+  /* display: flex; */
   text-align: center;
 }
 

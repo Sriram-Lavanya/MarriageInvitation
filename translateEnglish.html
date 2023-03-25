@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+<script>
+    const dropdown = document.getElementById("language");
+
+dropdown.addEventListener("input", function() {
+  const input = dropdown.value.toLowerCase();
+
+  for (let i = 0; i < dropdown.options.length; i++) {
+    const option = dropdown.options[i];
+    const value = option.value.toLowerCase();
+
+    if (value.startsWith(input)) {
+      option.selected = true;
+      return;
+    }
+  }
+
+  dropdown.selectedIndex = 0;
+});
+</script>
+<h1>My Web Page</h1>
+
+<p>Hello everybody!</p>
+
+<p>Translate this page:</p>
+
+
+<p>You can translate the content of this page by selecting a language in the select box.</p>
+
+</body>
+</html>

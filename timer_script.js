@@ -20,6 +20,19 @@ function countdown() {
   hourselement.innerHTML = formatTime(hours);
   minuteselement.innerHTML = formatTime(minutes);
   secondselement.innerHTML = formatTime(seconds);
+  if (totalSeconds < 0) {
+    // clearInterval(countdownInterval);
+    dayselement.innerHTML = "00";
+    hourselement.innerHTML = "00";
+    minuteselement.innerHTML = "00";
+    secondselement.innerHTML = "00";
+    const countdownMessage = "Congtratz Mohan-Kalavani";
+    document.getElementById("countdown-message").innerHTML = countdownMessage;
+
+    return;
+  }
+
+
 }
 
 function formatTime(time) {
