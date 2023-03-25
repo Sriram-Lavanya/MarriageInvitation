@@ -1,7 +1,7 @@
-<p align="center"><a href="https://kalaivani-mohan-marriageinvitation.netlify.app/"><img src="./assets/Invitation.jpg" width="150px" height="150px"/></a></p>
+<p align="center"><a href="https://kalaivani-mohan-marriageinvitation.netlify.app/"><img src="https://github.com/Kalaivani-Mohan/MarriageInvitation/raw/demoBranch/assets/wedding.gif" width="150px" height="150px"/></a></p>
 <h1 align="center"><a href="https://kalaivani-mohan-marriageinvitation.netlify.app/">Wedding Invitation</a> :ring: <br> <br> SAVE THE DATE: APR 26, 2023 <br> <a href="https://kalaivani-mohan-marriageinvitation.netlify.app/">kalaivani-mohan-marriageinvitation.netlify.app</a></h1>
 
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Kalaivani-Mohan/MarriageInvitation?logo=github?logo=github)](https://kalaivani-mohan-marriageinvitation.app/) [![Netlify Status](https://api.netlify.com/api/v1/badges//cf488868-3636-4d6f-ae16-0579ada47339/deploy-status)](https://app.netlify.com/sites/kalaivani-mohan-marriageinvitation/deploys) [![GitHub license](https://img.shields.io/github/license/kalaivani-mohan-marriageinvitation?logo=github)](https://github.com/Kalaivani-Mohan/MarriageInvitation)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Kalaivani-Mohan/MarriageInvitation?logo=github?logo=github)](https://kalaivani-mohan-marriageinvitation.app/) [![Netlify Status](https://api.netlify.com/api/v1/badges//cf488868-3636-4d6f-ae16-0579ada47339/deploy-status)](https://app.netlify.com/sites/kalaivani-mohan-marriageinvitation/deploys) (https://github.com/Kalaivani-Mohan/MarriageInvitation)
 
 
 
