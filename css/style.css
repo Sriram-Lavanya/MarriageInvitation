@@ -365,6 +365,8 @@ body {
 	font-family: Arial, Helvetica, Sans-serif;
 }
 
+
+
 img {
 	max-width: fit-content;
 	height: auto;
@@ -378,19 +380,42 @@ img {
 
 
 
-.top-right-decoration {
-	position: absolute;
-	top: 0;
-	right: 0;
-	display: block;
-}
 
-.top-left-decoration {
-	position: absolute;
-	top: 0;
-	left: 0;
-	display: block;
-}
+.top-right-decoration {
+	display: flex;
+	justify-content: stretch;
+	align-items: stretch;
+	height: 100px;
+	background-color: #f0f0f0;
+  }
+  
+  .top-right-decoration img {
+	max-height: fit-content;
+	max-width: fit-content;
+  }
+  
+  @media (max-width: 740px) {
+	.top-right-decoration {
+	  width: 500%;
+	  height: 200px;
+	}
+  }
+  
+  @media (min-width: 240px) and (max-width: 1024px) {
+	.top-right-decoration {
+	  width: auto; /* Set the width to 100% of viewport width */
+	  height: auto;
+	}
+  }
+  
+  @media (min-width: 1024px) {
+	.top-right-decoration {
+	  /* Add any other styles for the image on larger screens here */
+	  width: 100vw;
+	  height: 500px;
+	}
+  }
+ 
 
   .totalTime {
 	font-family: "Georgia", "serif";
