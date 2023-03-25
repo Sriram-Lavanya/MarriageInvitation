@@ -1,14 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-*
-{
-    margin:0;
-     padding: 0;
-     box-sizing: border-box;
-     font-family: 'Poppins',sans-serif;
-	     background-color: #dcdcdc;
-}
-
-
 @-webkit-keyframes fall {
 	0% {
 		opacity: 0.9;
@@ -365,67 +355,39 @@ body {
 	font-family: Arial, Helvetica, Sans-serif;
 }
 
-
-
 img {
-	max-width: fit-content;
+	max-width: 100%;
 	height: auto;
 }
 
 @media (max-width:900px) {
 	img {
-		max-width: fit-content;
+		max-width: 30%;
 	}
 }
+.receptioimg {
+	max-width: 100%;
+	height: auto;
+}
 
+@media (max-width:900px) {
+	.receptioimg {
+		max-width: 100%;
+	}
+}
+.top-right-decoration {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block;
+}
 
-
-
-
-  .totalTime {
-	font-family: "Georgia", "serif";
-	font-size: 20px;
-	font-weight: bold;
-	color: #ffcc00;
-	text-shadow: 0 0 5px #efe414;
-	background-color: #6830c8; /* set background color here */
-	padding: 15px;
-	border-radius: 10px;
-  }
-  .fontDays {
-	font-family: "Verdana", "Geneva", "sans-serif";
-	font-size: 15px;
-	font-weight: bold;
-	color: #3add21;
-	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-
-	
-  }
-  .fontMonth {
-	font-family: "Verdana", "Geneva", "sans-serif";
-	font-size: 15px;
-	font-weight: bold;
-	color: #d1ed1c;
-	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-
-  }
-  .fontMinutes {
-	font-family: "Verdana", "Geneva", "sans-serif";
-	font-size: 15px;
-	font-weight: bold;
-	color: #12b0d3;
-	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-
-  }
-  .fontSeconds {
-	font-family: "Verdana", "Geneva", "sans-serif";
-	font-size: 15px;
-	font-weight: bold;
-	color: #f195e3;
-	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-
-  }
-
+.top-left-decoration {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+}
 
 .title h1 {
 	font-family: 'Dancing Script', cursive;
@@ -451,7 +413,7 @@ img {
 	font-family: 'Dancing Script', cursive;
 	font-weight: bolder;
 	font-style: normal;
-	font-size: 32px;
+	font-size: 40px;
 	color: #674ea7;
 	margin: 16px;
 	text-align: center;
@@ -603,20 +565,6 @@ body {
 a {
 	text-decoration: none;
 }
-.whatsapp {
-	width: auto;
-	height: auto;
-	background-color: #64a74e;
-	border-radius: 16px;
-	text-align: center;
-	color: #fff;
-	padding: 8px;
-	margin-right: 8px;
-}
-
-.whatsapp a {
-	text-decoration: none;
-	c
 
 .happiness {
 	color: #874562;
@@ -638,4 +586,34 @@ a {
 	display: flex;
 	font-size: 12px;
 	letter-spacing: 0pt;
+}
+
+.whatsapp {
+	width: auto;
+	height: auto;
+	background-color: #64a74e;
+	border-radius: 20px;
+	text-align: center;
+	color: #fff;
+	padding: 10px;
+	margin-right: 0px;
+}
+
+.whatsapp a {
+	text-decoration: solid;
+}
+
+.phoneCall {
+	width: auto;
+	height: auto;
+	background-color: #54a8b7;
+	border-radius: 20px;
+	text-align: center;
+	color: #fff;
+	padding: 10px;
+	margin-right: 0px;
+}
+
+.phoneCall a {
+	text-decoration: solid;
 }
