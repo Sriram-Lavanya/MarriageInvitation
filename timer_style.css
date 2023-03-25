@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url("https://images.unsplash.com/photo-1510554310709-f60fc3cf34e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80");
+  background-image: url("./img.jfif");
   background-size: cover;
   background-position: center center;
   display: flex;
