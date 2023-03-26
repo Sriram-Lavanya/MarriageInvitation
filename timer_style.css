@@ -87,10 +87,10 @@ h1 {
 .element {
   /* display: flex; */
   text-align: center;
-  color: rgb(162, 123, 120);
+  color: azure;
 }
 
 .element span {
-  color: rgb(239, 29, 18);
+  color: azure;
   font-size: 1.0rem;
 }
