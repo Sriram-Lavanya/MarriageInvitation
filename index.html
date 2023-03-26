@@ -55,10 +55,16 @@
             </p>
          </div>
       </div>
-      <video width="100%" height="auto" controls autoplay loop>
+      <video id="myVideo" width="100%" height="auto" controls autoplay loop>
          <source src="assets\videos\Engagement.mp4" type="video/mp4">
           Your browser does not support the video tag.
          </video>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var video = document.getElementById("myVideo");
+    video.play();
+  });
+</script>
       <p class="dance-med">
          Reception at Chennai:
          <br>
