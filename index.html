@@ -71,7 +71,110 @@
     });
   });
 </script>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 800px;
+        margin: auto;
+        background-color: #f2f2f2; /* Add background color for table */
+    }
+    
+    th {
+        background-color: #e6e6e6;
+        text-align: left;
+        font-weight: bold;
+        padding: 8px;
+        border: 1px solid #ccc;
+        background-color: #333; /* Add separate color for table header */
+        color: #fff; /* Add text color for table header */
+    }
+    
+    td {
+        padding: 8px;
+        border: 1px solid #ccc;
+                background-color: #0995ec; /* Add separate color for table header */
 
+    }
+    
+    tbody tr:nth-child(even) {
+        background-color: #f2f2f2; /* Add alternate background color for table body */
+    }
+    
+    #okButton {
+        margin-top: 16px;
+        padding: 8px 16px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+
+  #container {
+      margin-top: 16px;
+      text-align: center;
+  }
+  
+  #tableWrapper {
+      display: none;
+      margin-top: 16px;
+  }
+</style>
+
+<div id="container">
+  <button onclick="toggleTable()">Click here to see the bus route</button>
+  <div id="tableWrapper">
+      <table>
+          <thead>
+              <tr>
+                  <th>Bus No</th>
+                  <th>Starting</th>
+                  <th>Destination</th>
+                  <th>Route</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>A51</td>
+                  <td>Broaddway</td>
+                  <td>Medavakkam</td>
+                  <td>Chennai Central Railway Station, LIC, Anna Salai, Teynampet, Saidapet, Velacherry</td>
+              </tr>
+              <tr>
+                  <td>51,51A,95,99</td>
+                  <td>Tambaram</td>
+                  <td>Medavakkam</td>
+                  <td>Narayanpuram, Pallikaranai</td>
+              </tr>
+              <tr>
+                  <td>95,99</td>
+                  <td>Sholinganallur</td>
+                  <td>Medavakkam</td>
+                  <td>Perumbakkam, PudhuNagar</td>
+              </tr>
+          </tbody>
+      </table>
+      <button id="okButton" onclick="toggleTable()">OK</button>
+  </div>
+</div>
+
+<script>
+  var tableWrapper = document.getElementById("tableWrapper");
+  var tableVisible = false;
+  
+  function toggleTable() {
+      if (tableVisible) {
+          tableWrapper.style.display = "none";
+          tableVisible = false;
+      } else {
+          tableWrapper.style.display = "block";
+          tableVisible = true;
+      }
+  }
+</script>
 
       <p class="dance-med">
          Reception:
