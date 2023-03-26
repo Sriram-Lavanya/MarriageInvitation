@@ -71,62 +71,86 @@
     });
   });
 </script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var video = document.getElementById("myVideo");
+    video.addEventListener('click', function() {
+      video.play();
+    });
+  });
+</script>
 <style>
-    table {
-        border-collapse: collapse;
-        width: 100%;
-        max-width: 800px;
-        margin: auto;
-        background-color: #f2f2f2; /* Add background color for table */
-    }
-    
-    th {
-        background-color: #e6e6e6;
-        text-align: left;
-        font-weight: bold;
-        padding: 8px;
-        border: 1px solid #ccc;
-        background-color: #333; /* Add separate color for table header */
-        color: #fff; /* Add text color for table header */
-    }
-    
-    td {
-        padding: 8px;
-        border: 1px solid #ccc;
-                background-color: #0995ec; /* Add separate color for table header */
+   table {
+  max-width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+  margin: auto;
+  background-color: #f2f2f2;
+}
 
-    }
-    
-    tbody tr:nth-child(even) {
-        background-color: #f2f2f2; /* Add alternate background color for table body */
-    }
-    
-    #okButton {
-        margin-top: 16px;
-        padding: 8px 16px;
-        background-color: #007bff;
-        color: #fff;
-        border: none;
-        border-radius: 4px;
-        font-size: 16px;
-        cursor: pointer;
-    }
+th {
+  background-color: #e6e6e6;
+  text-align: left;
+  font-weight: bold;
+  padding: 8px;
+  border: 1px solid #ccc;
+  background-color: #333;
+  color: #fff;
+}
 
+td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  background-color: #0995ec;
+}
 
-  #container {
-      margin-top: 16px;
-      text-align: center;
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+@media (max-width: 600px) {
+  table {
+    font-size: 12px;
+    max-width: 80%;
   }
-  
-  #tableWrapper {
-      display: none;
-      margin-top: 16px;
+  th {
+    font-size: 14px;
   }
+  td {
+    font-size: 14px;
+  }
+  .table-container {
+    overflow-x: auto;
+  }
+}
+
+#toggleButton {
+  margin-top: 16px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#container {
+  margin-top: 16px;
+  text-align: center;
+}
+
+#tableWrapper {
+  display: none;
+  margin-top: 16px;
+}
 </style>
 
 <div id="container">
   <button onclick="toggleTable()">Click here to see the bus route</button>
   <div id="tableWrapper">
+    <div class="table-container">
       <table>
           <thead>
               <tr>
@@ -160,21 +184,31 @@
       <button id="okButton" onclick="toggleTable()">OK</button>
   </div>
 </div>
-
-<script>
-  var tableWrapper = document.getElementById("tableWrapper");
-  var tableVisible = false;
-  
+</div>
+<script>  
   function toggleTable() {
-      if (tableVisible) {
-          tableWrapper.style.display = "none";
-          tableVisible = false;
-      } else {
-          tableWrapper.style.display = "block";
-          tableVisible = true;
-      }
+  var tableWrapper = document.getElementById("tableWrapper");
+  if (tableWrapper.style.display === "block") {
+    tableWrapper.style.display = "none";
+  } else {
+    tableWrapper.style.display = "block";
   }
+}
+
+window.addEventListener("resize", function () {
+  if (window.innerWidth > 600) {
+    document.getElementById("tableWrapper").style.display = "block";
+  } else {
+    document.getElementById("tableWrapper").style.display = "none";
+  }
+});
+
+
+
+
 </script>
+
+
 
       <p class="dance-med">
          Reception:
