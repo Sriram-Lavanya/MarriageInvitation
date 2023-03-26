@@ -39,6 +39,8 @@ h1 {
   flex-wrap: wrap;
   text-align: center;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    box-shadow: 2px 2px 4px rgba(9, 248, 21, 0.8);
+
   border: 2px solid #31f704;
   padding: 1rem;
   border-radius: 0.5rem;
@@ -58,7 +60,9 @@ h1 {
   border: 2px solid #f70404;
   padding: 1rem;
   border-radius: 0.5rem;
-  border-image: linear-gradient(45deg, #30e607, #e2380d) 1;
+  border-image: linear-gradient(45deg, #30e607, #e2380d);
+    box-shadow: 2px 2px 4px rgba(9, 248, 21, 0.8);
+
   border-image-slice: 1;
   background-clip: content-box;
   /* Add animation */
