@@ -185,22 +185,28 @@ window.addEventListener("resize", function () {
     document.getElementById("tableWrapper").style.display = "none";
   }
 });
-
-
+  function toggleImg() {
+  var tableWrapper = document.getElementById("tableImage");
+  if (tableWrapper.style.display === "block") {
+    tableWrapper.style.display = "none";
+  } else {
+    tableWrapper.style.display = "block";
+  }
+}
 
 
 </script>
 <br>
 
 <div id="container">
-  <button onclick="toggleTable()">Click here to see the Invitation carf</button>
+  <button onclick="tableImg()">Click here to see the Invitation carf</button>
   <div id="tableWrapper">
     <div class="table-container">
          <img src="assets/img/Invitation1.jpg" alt="image" class="receptioimg" width=auto height="700px" style="margin:0; padding:0; overflow:hidden;">
      <img src="assets/img/Invitation.jpg" alt="image" class="receptioimg" width=auto height="700px" style="margin:0; padding:0; overflow:hidden;">
  <img src="assets/img/Invitation2.jpg" alt="image" class="receptioimg" width=auto height="700px" style="margin:0; padding:0; overflow:hidden;">
 <br>
-      <button id="okButton" onclick="toggleTable()">OK</button>
+      <button id="okButton" onclick="toggleImg">OK</button>
   </div>
 </div>
 </div>
