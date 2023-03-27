@@ -625,3 +625,6 @@ a {
 .phoneCall a {
 	text-decoration: solid;
 }
+.goog-te-banner-frame { 
+  display: none !important; 
+}
