@@ -31,67 +31,18 @@ h1 {
 }
 
 .big-text {
-  color: #f8e407;
+  color: azure;
   font-weight: bold;
   font-size: 3rem;
   line-height: 0.75;
   margin: 1.5rem 2rem;
   flex-wrap: wrap;
   text-align: center;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-    box-shadow: 2px 2px 4px rgba(9, 248, 21, 0.8);
-
-  border: 2px solid #31f704;
-  padding: 1rem;
-  border-radius: 0.5rem;
 }
-
-
-
-.big-text_seconds {
-  color: #f8e407;
-  font-weight: bold;
-  font-size: 3rem;
-  line-height: 0.75;
-  margin: 1.5rem 2rem;
-  flex-wrap: wrap;
-  text-align: center;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-  border: 2px solid #f70404;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  border-image: linear-gradient(45deg, #30e607, #e2380d);
-    box-shadow: 2px 2px 4px rgba(9, 248, 21, 0.8);
-
-  border-image-slice: 1;
-  background-clip: content-box;
-  /* Add animation */
-  animation-name: slide-down;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  background-color: rgb(31, 31, 14);
-}
-
-@keyframes slide-down {
-  0% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  50% {
-    opacity: 0;
-    transform: translateY(50%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 
 .element {
   /* display: flex; */
   text-align: center;
-  color: azure;
 }
 
 .element span {
