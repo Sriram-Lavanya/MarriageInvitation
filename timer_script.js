@@ -26,7 +26,7 @@ function countdown() {
     hourselement.innerHTML = "00";
     minuteselement.innerHTML = "00";
     secondselement.innerHTML = "00";
-    const countdownMessage = "Congtratz Mohan-Kalavani";
+    const countdownMessage = "Congtratz Mohan-Saranya";
     document.getElementById("countdown-message").innerHTML = countdownMessage;
 
     return;
