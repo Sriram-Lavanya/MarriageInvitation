@@ -625,6 +625,19 @@ a {
 .phoneCall a {
 	text-decoration: solid;
 }
-.goog-te-banner-frame { 
-  display: none !important; 
-}
+.bus-route-button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .bus-route-button:hover {
+    background-color: #0056b3;
+  }
