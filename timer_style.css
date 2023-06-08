@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-  color: azure;
+  color: rgb(32, 136, 136);
   font-weight: 600;
   font-size: 5rem;
   margin-top: 20rem;
@@ -31,21 +31,59 @@ h1 {
 }
 
 .big-text {
-  color: azure;
+  color: #f8e407;
   font-weight: bold;
   font-size: 3rem;
   line-height: 0.75;
   margin: 1.5rem 2rem;
   flex-wrap: wrap;
   text-align: center;
+  box-shadow: 2px 2px 4px rgba(9, 248, 21, 0.8);
+  border: 2px solid #31f704;
+  padding: 1rem;
+  border-radius: 0.5rem;
 }
+
+
+
+.big-text_seconds {
+  color: #f8e407;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 0.75;
+  margin: 1.5rem 2rem;
+  flex-wrap: wrap;
+  text-align: center;
+  box-shadow: 2px 2px 4px rgba(9, 248, 21, 0.8);
+  border: 2px solid #31f704;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+@keyframes slide-down {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 
 .element {
   /* display: flex; */
   text-align: center;
+  color: azure
 }
 
 .element span {
   color: azure;
   font-size: 1.0rem;
 }
+
