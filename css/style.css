@@ -641,3 +641,32 @@ a {
   .bus-route-button:hover {
     background-color: #0056b3;
   }
+
+  .card1 {
+	background: linear-gradient(to right,  #e5d310,#ffffff, #73d3e9);
+	border-radius: 10px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	text-align: center;
+}
+.card {
+	background: linear-gradient(to right,  #73d3e9,#ffffff, #e5d310);
+	border-radius: 10px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
